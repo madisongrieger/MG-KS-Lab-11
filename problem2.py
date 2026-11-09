@@ -14,6 +14,6 @@ def is_unique(string):
   """
   result=[]
   for i in string:
-    if i not in result:
-      result.append(i)
+    if i in result:
+      
   return result
