@@ -12,5 +12,8 @@ def is_unique(string):
   >>> is unique("ooma")
   False
   """
+  result=[]
   for i in string:
-    if i
+    if i not in result:
+      result.append(i)
+  return result
