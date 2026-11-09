@@ -1,7 +1,7 @@
 def is_unique(string):
   """
   string-> boolean
-  using string_to_char_dict, checkes to see if a string has all unique characters
+  using string_to_char_dict, checks to see if a string has all unique characters
   
   >>> is_unique("aaaa")
   False
