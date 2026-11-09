@@ -5,5 +5,9 @@ def compression(string):
 
   >>> compression("aabcccccaaa")
   'a2b1c5a3'
-  """
-  ## student todo
+  >>> compression ("aaaabbccca")
+  'a4b2c3a1'
+  >>> compression ("bbbccaaa")
+  'b3c2a3'
+  """ 
+  letters=[]
