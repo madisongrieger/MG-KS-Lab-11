@@ -13,9 +13,12 @@ def string_to_char_dict(string):
   {'a': 5, 'b':4}
   """
   amt_of_letters={}
+  value=0
   for i in string:
     if i=='a':
-      return amt_of_letters {a:1}
-    elif i=='b':
-      return amt_of_letters {b:1}
-   print (dict(amt_of_letters)) 
+      if amt_of_letters['a']:
+        ['a']= value+1
+      elif i=='b':
+      if amt_of_letters['b']:
+        ['b']=value+1
+        print dict(amt_of_letters)
