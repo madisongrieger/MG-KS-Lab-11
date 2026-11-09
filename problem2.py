@@ -1,10 +1,16 @@
 def is_unique(string):
   """
-  ### add to this and doctests
-
+  string-> boolean
+  using string_to_char_dict, checkes to see if a string has all unique characters
+  
   >>> is_unique("aaaa")
   False
   >>> is_unique("abce")
   True
+  >>> is_unique("lmnop")
+  True
+  >>> is unique("ooma")
+  False
   """
-  ## add here as well
+  for i in string:
+    if i
