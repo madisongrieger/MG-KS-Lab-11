@@ -9,7 +9,7 @@ def is_unique(string):
   True
   >>> is_unique("lmnop")
   True
-  >>> is unique("ooma")
+  >>> is_unique("ooma")
   False
   """
   result=[]
