@@ -19,3 +19,4 @@ def string_to_char_dict(string):
       amt_of_letters[i]= value+1
     elif i=='b':
       amt_of_letters['i']=value+1
+      return amt_of_letters
