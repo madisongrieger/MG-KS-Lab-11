@@ -15,7 +15,7 @@ def string_to_char_dict(string):
   amt_of_letters={}
   for i in string:
     if i=='a':
-      return amt_of_letters{a:1}
+      return amt_of_letters {a:1}
     elif i=='b':
-      return amt_of_letters{b:1}
+      return amt_of_letters {b:1}
    print (dict(amt_of_letters)) 
