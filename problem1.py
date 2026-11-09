@@ -16,7 +16,6 @@ def string_to_char_dict(string):
   value=0
   for i in string:
     if i=='a':
-      amt_of_letters['a']= value+1
+      amt_of_letters[i]= value+1
     elif i=='b':
-      amt_of_letters['b']=value+1
-      figure out where i can leverage i
+      amt_of_letters['i']=value+1
