@@ -13,7 +13,6 @@ def string_to_char_dict(string):
   {'a': 5, 'b':4}
   """
   amt_of_letters={}
-  value=0
   for i in string:
     if i in amt_of_letters:
       amt_of_letters[i]+=1
