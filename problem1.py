@@ -10,7 +10,7 @@ def string_to_char_dict(string):
   >>> string_to_char_dict("aabbaabb")
   {'a': 4, 'b': 4}
   >>> string_to_char_dict("ababababa")
-  {'a': 5, 'b':4}
+  {'a': 5, 'b': 4}
   """
   amt_of_letters={}
   for i in string:
