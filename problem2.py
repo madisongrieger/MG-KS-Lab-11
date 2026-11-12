@@ -1,3 +1,4 @@
+from problem1 import string_to_char_dict
 def is_unique(string):
   """
   string-> boolean
