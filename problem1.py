@@ -18,4 +18,4 @@ def string_to_char_dict(string):
       amt_of_letters[i]+=1
     else:
       amt_of_letters[i]=1
-    return amt_of_letters
+  return amt_of_letters
