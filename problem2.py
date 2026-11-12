@@ -12,8 +12,8 @@ def is_unique(string):
   >>> is_unique("ooma")
   False
   """
-  result=[]
-  for i in string:
-    if i in result:
-      
-  return result
+  result= string_to_char_dict(string)
+  for i in result:
+    if result[i] >1:
+      return False
+  return True
