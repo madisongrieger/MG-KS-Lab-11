@@ -17,5 +17,5 @@ def string_to_char_dict(string):
     if i in amt_of_letters:
       amt_of_letters[i]+=1
     else:
-      amt_of_letters['i']+=1
+      amt_of_letters[i]=1
     return amt_of_letters
