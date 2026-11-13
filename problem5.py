@@ -24,4 +24,4 @@ def key_value_swap(dictionary):
         swap[val]=[swap[val],key]
     else:
       swap[val] = key
-return swap
+   return swap
