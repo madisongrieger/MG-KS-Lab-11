@@ -12,6 +12,7 @@ def compression(string):
   """ 
   letters=[]
   count = 1
+  result=""
   for i in range(1, len(string)):
     if string[i]== string[i-1]:
       count += 1
@@ -19,4 +20,4 @@ def compression(string):
       result += string[i-1] + str(count)
       count=1
   result += string[-1] + str(count)
-  return result 
+  return result
