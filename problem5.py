@@ -9,8 +9,19 @@ def key_value_swap(dictionary):
   {1: 'a', 'b': 3, 4: 'c'}
   >>> key_value_swap({'a': 1, 'b': 1, 'c': 4})
   {1: ['a','b'], 4: 'c'}
-   
-  
-  ## keys cannot be identical (but values can) so when we swap in this case we'll have to be extra careful
+  >>> key_value_swap({'a': 2, 'b': 5, 'c': 8})
+  {2: 'a', 5: 'b', 8: 'c'}
+  >>> key_value_swap({'a': 7, 'b': 7, 'c': 9})
+  {7: ['a', 'b'], 9: 'c'}
   """
-  ## add to this
+  swap={}
+  for key in dictionary:
+    val = dictionary[key]
+    if val in swap:
+      if type (swap[val)==list:
+        swap[val].append(key)
+      else:
+        swap[val]=[swap[val],key]
+    else:
+      swap[val] = key
+return swap
