@@ -9,6 +9,7 @@ def key_value_swap(dictionary):
   {1: 'a', 'b': 3, 4: 'c'}
   >>> key_value_swap({'a': 1, 'b': 1, 'c': 4})
   {1: ['a','b'], 4: 'c'}
+   
   
   ## keys cannot be identical (but values can) so when we swap in this case we'll have to be extra careful
   """
