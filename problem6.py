@@ -12,7 +12,7 @@ def merge(dictionary1, dictionary2):
   """
   merge_dict= {}
   for key in dictionary1:
-    merge_dict[key] = dictionary[key]
+    merge_dict[key] = dictionary1[key]
   for key in dictionary2:
     if key in merge_dict:
       merge_dict[key] = merge_dict[key] + dictionary2[key]
